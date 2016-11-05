@@ -11,8 +11,8 @@ electricityObject <-read.csv('./ExData_Plotting1/household_power_consumption.txt
 ## Use library lubridate to create an additional column in the dataframe that is a POSIXct (date) object 
 ## and not a factor variable
 library(lubridate)
-electricityObject$IDate2 <- dmy(electricityObject$IDate)
-electricityDateRange <- subset(electricityObject, IDate2 >= as.POSIXct('2007-02-01 00:00') & IDate2 <= as.POSIXct('2007-02-02 23:59'))
+electricityObject$Date2 <- dmy(electricityObject$Date)
+electricityDateRange <- subset(electricityObject, Date2 >= as.POSIXct('2007-02-01 00:00') & Date2 <= as.POSIXct('2007-02-02 23:59'))
 
 ## change the 'Global_active_power' variable from a factor to a numeric for plotting
 electricityDateRange$Global_active_power2 <- as.numeric(as.character(electricityDateRange$Global_active_power))
