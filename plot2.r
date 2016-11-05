@@ -19,7 +19,7 @@ electricityDateRange$Global_active_power2 <- as.numeric(as.character(electricity
 electricityDateRange$Date2 <- as.POSIXct(strptime(paste(electricityDateRange[,1], electricityDateRange[,2], sep= " "), "%d/%m/%Y %H:%M:%S"))
 
 ## now plot the data
-png(file = "plot2.png", width=480, heigth=480)
+png(file = "plot2.png", width=480, height=480)
 plot(electricityDateRange$Date2, electricityDateRange$Global_active_power, ylab = "Global Active Power(KiloWatts)", xlab='', col='black', type='n')
 
 lines(electricityDateRange$Date2, electricityDateRange$Global_active_power, col = "black")
