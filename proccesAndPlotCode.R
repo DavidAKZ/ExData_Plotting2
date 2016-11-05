@@ -18,6 +18,6 @@ electricityDateRange <- subset(electricityObject, Date2 >= as.POSIXct('2007-02-0
 electricityDateRange$Global_active_power2 <- as.numeric(as.character(electricityDateRange$Global_active_power))
 
 ## Now plot the file to a png file 	
-png(file='plot1.png')
+png(file='plot1.png', width=480, height=480)
 hist(electricityDateRange$Global_active_power2, col='red', main='Global Active Power', xlab='Global Active Power(KilowWatts)')
 dev.off()
