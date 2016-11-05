@@ -23,3 +23,4 @@ png(file = "plot2.png", width=480, height=480)
 plot(electricityDateRange$Date2, electricityDateRange$Global_active_power, ylab = "Global Active Power(KiloWatts)", xlab='', col='black', type='n')
 
 lines(electricityDateRange$Date2, electricityDateRange$Global_active_power, col = "black")
+dev.off()
