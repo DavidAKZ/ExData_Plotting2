@@ -12,10 +12,6 @@ Does the plot appear to address the question being asked?
 Is the submitted R code appropriate for construction of the submitted plot?
 
 ##Data
-The data for this assignment are available from the course web site as a single zip file:
-
-Data for Peer Assessment [29Mb]
-The zip file contains two files:
 
 PM2.5 Emissions Data (𝚜𝚞𝚖𝚖𝚊𝚛𝚢𝚂𝙲𝙲_𝙿𝙼𝟸𝟻.𝚛𝚍𝚜): This file contains a data frame with all of the PM2.5 emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of PM2.5 emitted from a specific type of source for the entire year. Here are the first few rows.
 
