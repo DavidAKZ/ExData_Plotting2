@@ -62,7 +62,7 @@ You must address the following questions and tasks in your exploratory analysis.
 **Making and Submitting Plots** <br />
 For each plot you should
 
-Construct the plot and save it to a PNG file.
+*Construct the plot and save it to a PNG file. <br />
 Create a separate R code file (𝚙𝚕𝚘𝚝𝟷.𝚁, 𝚙𝚕𝚘𝚝𝟸.𝚁, etc.) that constructs the corresponding plot, i.e. code in plot1.R constructs the plot1.png plot. Your code file should include code for reading the data so that the plot can be fully reproduced. You must also include the code that creates the PNG file. Only include the code for a single plot (i.e. 𝚙𝚕𝚘𝚝𝟷.𝚁 should only include code for producing 𝚙𝚕𝚘𝚝𝟷.𝚙𝚗𝚐)
 Upload the PNG file on the Assignment submission page
 Copy and paste the R code from the corresponding R file into the text box at the appropriate point in the peer assessment.
