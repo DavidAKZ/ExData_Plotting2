@@ -41,8 +41,8 @@ Source Classification Code Table (𝚂𝚘𝚞𝚛𝚌𝚎_𝙲𝚕𝚊𝚜𝚜�
 You can read each of the two files using the 𝚛𝚎𝚊𝚍𝚁𝙳𝚂() function in R. <br />
 NEI <- readRDS("summarySCC_PM25.rds") <br />
 SCC <- readRDS("Source_Classification_Code.rds") <br />
-as long as each of those files is in your current working directory (check by calling 𝚍𝚒𝚛() and see if those files are in the listing). <br />
-**Assignment**  <br /> <br />
+as long as each of those files is in your current working directory (check by calling 𝚍𝚒𝚛() and see if those files are in the listing). <br /> <br />
+**Assignment**  <br /> 
 The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008. You may use any R package you want to support your analysis.
 
 **Questions**
