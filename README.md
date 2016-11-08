@@ -25,8 +25,7 @@ PM2.5 Emissions Data (𝚜𝚞𝚖𝚖𝚊𝚛𝚢𝚂𝙲𝙲_𝙿𝙼𝟸𝟻.
 |## |20 |09001 |10200504 | PM25-PRI |    0.388 |POINT |1999 |
 |## |24 |09001 |10200602 | PM25-PRI |    1.490 |POINT |1999 |
 
-**𝚏𝚒𝚙𝚜**: A five-digit number (represented as a string) indicating the U.S. county   <br />
-**𝚂𝙲𝙲**: The name of the source as indicated by a digit string (see source code classification table)
+**𝚏𝚒𝚙𝚜**: A five-digit number (represented as a string) indicating the U.S. county   <br />**𝚂𝙲𝙲**: The name of the source as indicated by a digit string (see source code classification table)
 
 **𝙿𝚘𝚕𝚕𝚞𝚝𝚊𝚗𝚝**: A string indicating the pollutant
 
