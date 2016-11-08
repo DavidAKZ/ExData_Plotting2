@@ -9,7 +9,7 @@ y<-summarySCC_PM25_BaltimoreCity$Emissions
 
 ## plot emission v four polution source types
 png(file='plot3.png', width=480, height=480)
-qplot(x,y, data=summarySCC_PM25_BaltimoreCity, color=summarySCC_PM25_BaltimoreCity$type)
+qplot(x,y, data=summarySCC_PM25_BaltimoreCity, color=type, xlab='Year', ylab='mp2.5 Emissions', main='Emission Type-Baltimore City')
 dev.off
 
 
