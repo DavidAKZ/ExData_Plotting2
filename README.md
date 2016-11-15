@@ -107,7 +107,7 @@ You must address the following questions and tasks in your exploratory analysis.
 |30531004 |Coal Mining, Cleaning & Material Handling /Rotary                |
 |30531006 |Coal Mining, Cleaning & Material Handling /Continuous Carrier    |
 |30531007 |Coal Mining, Cleaning & Material Handling /Screen                |
-|--------:|:----------------------------------------------------------------:|
+|--------:|:---------------------------------------------------------------:|
 
 
 ```
