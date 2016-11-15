@@ -79,11 +79,20 @@ You must address the following questions and tasks in your exploratory analysis.
 4.Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008? <br />
 
 ```diff
-+ Emissions vary depending on  what Source Classification Code (SCC) over time is drawn. SCC values and their descriptions are shown below
++ Emissions vary depending on  what Source Classification Code (SCC) over time is drawn. SCC values 
++ and their descriptions are shown below
 
 | SCC     |Description                                        | 
 |-------:|:--------------------------------------------------:|
 |30501023 |Coal Mining, Cleaning & Material Handling /Loading |
+|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
+|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
+|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
+|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
+|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
+|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
+|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
+
 
 ```
 
