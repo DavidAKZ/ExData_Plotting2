@@ -82,6 +82,7 @@ You must address the following questions and tasks in your exploratory analysis.
 + Emissions vary depending on  what Source Classification Code (SCC) over time is drawn. SCC values 
 + and their descriptions are shown below
 
+|-------:|:----------------------------------------------------------------:|
 | SCC     |Description                                                      | 
 |-------:|:----------------------------------------------------------------:|
 |30501023 |Coal Mining, Cleaning & Material Handling /Loading               | 
@@ -96,6 +97,8 @@ You must address the following questions and tasks in your exploratory analysis.
 |30531017 |Coal Mining, Cleaning & Material Handling /Secondary Crushing    |
 |30531090 |Coal Mining, Cleaning & Material Handling /Haul Roads: General   |
 |30531099 |Coal Mining, Cleaning & Material Handling /Other Not Classified  |
+|-------:|:----------------------------------------------------------------:|
++ The following SCC values were omitted due to lack of data
 
 ```
 
