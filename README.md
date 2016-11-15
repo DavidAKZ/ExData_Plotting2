@@ -78,6 +78,16 @@ You must address the following questions and tasks in your exploratory analysis.
 
 4.Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008? <br />
 
+```diff
++ Emissions vary over what Source Classification Code (SCC) over time is drawn
+
+|## |   | fips |     SCC |Pollutant |Emissions |  type| year|
+|---|:-:|:----:|:-------:|:--------:|:--------:|:----:|:---:|
+|## |4  |09001 |10100401 | PM25-PRI |   15.714 |POINT |1999 |
+
+```
+
+
 5.How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City? <br /> <br />
 6.Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (𝚏𝚒𝚙𝚜 == "𝟶𝟼𝟶𝟹𝟽"). Which city has seen greater changes over time in motor vehicle emissions? <br /> <br />
 **Making and Submitting Plots** <br />
