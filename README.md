@@ -82,17 +82,20 @@ You must address the following questions and tasks in your exploratory analysis.
 + Emissions vary depending on  what Source Classification Code (SCC) over time is drawn. SCC values 
 + and their descriptions are shown below
 
-| SCC     |Description                                        | 
-|-------:|:--------------------------------------------------:|
-|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
-|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
-|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
-|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
-|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
-|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
-|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
-|30501023 |Coal Mining, Cleaning & Material Handling /Loading |
-
+| SCC     |Description                                                      | 
+|-------:|:----------------------------------------------------------------:|
+|30501023 |Coal Mining, Cleaning & Material Handling /Loading               | 
+|30531008 |Coal Mining, Cleaning & Material Handling /Unloading             |
+|30531009 |Coal Mining, Cleaning & Material Handling /Raw Coal Storage      |
+|30531010 |Coal Mining, Cleaning & Material Handling /Crushing              |
+|30531011 |Coal Mining, Cleaning & Material Handling /Coal Transfer         |
+|30531012 |Coal Mining, Cleaning & Material Handling /Screening             | 
+|30531014 |Coal Mining, Cleaning & Material Handling /Cleaned Coal Storage  |
+|30531015 |Coal Mining, Cleaning & Material Handling /Loading               |
+|30531016 |Coal Mining, Cleaning & Material Handling /Loading: Clean Coal   |
+|30531017 |Coal Mining, Cleaning & Material Handling /Secondary Crushing    |
+|30531090 |Coal Mining, Cleaning & Material Handling /Haul Roads: General   |
+|30531099 |Coal Mining, Cleaning & Material Handling /Other Not Classified  |
 
 ```
 
