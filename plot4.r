@@ -13,20 +13,8 @@ coal_subset_SCC <- Source_Classification_Code[coal_SCC,]
 
 ## Join the coal reference file with the available pm2.5 data file
 coal_data <- merge(coal_subset_SCC,summarySCC_PM25)
-
-
-
-
-
-
-
-## join both df objects to give a one-to-one correspondance between Source Classification Code (SCC) and Description to identify those
-## SCC codes associated with coal
-
-##mergeDf <- merge(summarySCC_PM25, Source_Classification_Code, by='SCC', all=TRUE)
-
-
  
-png(file='plot4.png', width=480, height=480)
+## Widen and heighten the plot as there are 17 sub categories of coal related emissions
+png(file='plot4.png', width=4800, height=1000)
 qplot(year, Emissions, data=coal_data, facets =.~Short.Name)
 dev.off
