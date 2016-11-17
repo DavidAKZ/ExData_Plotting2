@@ -17,4 +17,4 @@ coal_data <- merge(coal_subset_SCC,summarySCC_PM25)
 ## Widen and heighten the plot as there are 17 sub categories of coal related emissions
 png(file='plot4.png', width=4800, height=600)
 qplot(year, Emissions, data=coal_data, facets =.~Short.Name)
-dev.off
+dev.off()
