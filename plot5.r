@@ -8,7 +8,7 @@ Source_Classification_Code <- na.omit(Source_Classification_Code)
 
 ## Subset the Source Classification Code file for occurencies of 'coal'
 
-wood_SCC<- grep('Wood', Source_Classification_Code$Short.Name, ignore.case = T)
+wood_SCC<- grep('Wood', Source_Classification_Code$SCC.Level.Four, ignore.case = T)
 wood_subset_SCC <- Source_Classification_Code[wood_SCC,]
 
 ## Join the coal reference file with the available pm2.5 data file
@@ -16,5 +16,5 @@ wood_data <- merge(wood_subset_SCC,summarySCC_PM25)
  
 ## Widen and heighten the plot as there are 17 sub categories of coal related emissions
 png(file='plot5.png', width=4800, height=600)
-qplot(year, Emissions, data=wood_data, facets =.~Short.Name)
+qplot(year, Emissions, data=wood_data, facets =.~SCC.Level.Four)
 dev.off()
