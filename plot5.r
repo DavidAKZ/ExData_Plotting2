@@ -1,4 +1,4 @@
-#################No occurrences of 'motor vehicle emissions' found, using 'Wood' combustion emissions instead
+#################No occurrences of 'motor vehicle emissions' not found, using 'Wood' combustion emissions instead
 
 
 ## call library ggplot2 for graphing
