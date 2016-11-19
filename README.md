@@ -121,13 +121,13 @@ You must address the following questions and tasks in your exploratory analysis.
 |----------:|:----------------------------------------------------------------:|
 | SCC       |Description                                                       | 
 |----------:|:----------------------------------------------------------------:|
-|2104008010 | Catalytic Woodstoves: General                                    | 
+|2104008010 | Catalytic Woodstoves: General                                    |
 |2104008050 | Non-catalytic Woodstoves: EPA certified                          |
 |2104008051 | Non-catalytic Woodstoves: Non-EPA certified                      |
 |2104008053 | Non-catalytic Woodstoves: Pellet Fired                           |
 |2104008070 | Outdoor Wood Burning Equipment                                   |
 |2104008010 | Woodstoves: General                                              |
-|----------:|:------------------------------------------------------------------:|
+|----------:|:----------------------------------------------------------------:|
 
 
 
