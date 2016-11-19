@@ -1,20 +1,20 @@
+## call library ggplot2 for graphing
 library('ggplot2')
+
 ## recall summarySCC_PM25 and Source_Classification_Code dataframe(df) objects from the previous code
 
 summarySCC_PM25 <- na.omit(summarySCC_PM25)
 Source_Classification_Code <- na.omit(Source_Classification_Code)
 
-## join both df objects to give a one-to-one correspondance between Source Classification Code (SCC) and Description to identify those
-## SCC codes associated with coal
+## Subset the Source Classification Code file for occurencies of 'coal'
 
-mergeDf <- merge(summarySCC_PM25, Source_Classification_Code, by='SCC', all=TRUE)
+wood_SCC<- grep('Wood', Source_Classification_Code$Short.Name, ignore.case = T)
+wood_subset_SCC <- Source_Classification_Code[wood_SCC,]
 
-## Subset the resulting df for each gasoline  related SCC valiue and plot accordingly
-## scc= 2260005050, 2265005050, 30531009, 2265008000
-## The following SCC values have been omitted due to lack of data points, 2260004070, 2260007020, 2260008000, 2265004070, 2265007020
-
-SCC_MergedDf <- subset(mergeDf, mergeDf$SCC=='scc')  
-png(file='plot3.png', width=480, height=480)
-qplot(Emissions, year, data=SCC_MergedDf, facets=.~Short.Name)
-dev.off
-
+## Join the coal reference file with the available pm2.5 data file
+wood_data <- merge(wood_subset_SCC,summarySCC_PM25)
+ 
+## Widen and heighten the plot as there are 17 sub categories of coal related emissions
+png(file='plot4.png', width=4800, height=600)
+qplot(year, Emissions, data=wood_data, facets =.~Short.Name)
+dev.off()
