@@ -15,6 +15,6 @@ wood_subset_SCC <- Source_Classification_Code[wood_SCC,]
 wood_data <- merge(wood_subset_SCC,summarySCC_PM25)
  
 ## Widen and heighten the plot as there are 17 sub categories of coal related emissions
-png(file='plot4.png', width=4800, height=600)
+png(file='plot5.png', width=4800, height=600)
 qplot(year, Emissions, data=wood_data, facets =.~Short.Name)
 dev.off()
